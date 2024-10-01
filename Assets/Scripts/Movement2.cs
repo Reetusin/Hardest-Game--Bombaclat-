@@ -34,11 +34,4 @@ public class Movement2 : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.CompareTag("Enemy"))
-        {
-            print("Get Good");
-        }
-    }
 }
